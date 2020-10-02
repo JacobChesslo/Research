@@ -1,0 +1,4 @@
+import model DMsimp_s_spin1_UFO
+define p = g u c d s u~ c~ d~ s~
+generate p p > ZD, (ZD > SD SD~, SD > mu+ mu-, SD~ > mu+ mu-)
+output ZDsD_M1000 -nojpeg #name of the directory

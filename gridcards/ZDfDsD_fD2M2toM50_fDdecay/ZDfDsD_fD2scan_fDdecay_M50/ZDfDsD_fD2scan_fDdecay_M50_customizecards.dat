@@ -1,0 +1,7 @@
+set param_card mass 1023 5.000000e+02
+set param_card mass 5000521 1.000000e+02
+set param_card mass 5000523 50
+set param_card hidden 1 1.000000e-02
+set param_card decay 1023 1.000000e-05
+set param_card decay 5000521 1.000000e-05
+set param_card decay 5000523 0.000000e+00
