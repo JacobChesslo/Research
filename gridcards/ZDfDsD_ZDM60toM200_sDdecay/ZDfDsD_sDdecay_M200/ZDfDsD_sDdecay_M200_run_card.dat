@@ -95,7 +95,7 @@
 # Minimum and maximum pt's (for max, -1 means no cut)                *
 #*********************************************************************
  5.0  = ptl       ! minimum pt for the charged leptons
- -1.0  = ptlmax    ! maximum pt for the charged leptons
+ -1  = ptlmax    ! maximum pt for the charged leptons
  {} = pt_min_pdg ! pt cut for other particles (use pdg code). Applied on particle and anti-particle
  {} = pt_max_pdg ! pt cut for other particles (syntax e.g. {6: 100, 25: 50})
 #
@@ -117,14 +117,14 @@
 # Minimum and maximum DeltaR distance                                *
 #*********************************************************************
  -1 = drll    ! min distance between leptons
- -1.0  = drllmax ! max distance between leptons
+ -1  = drllmax ! max distance between leptons
 #*********************************************************************
 # Minimum and maximum invariant mass for pairs                       *
  # WARNING: for four lepton final state mmll cut require to have      *
  #          different lepton masses for each flavor!                  *
 #*********************************************************************
  0.0   = mmll    ! min invariant mass of l+l- (same flavour) lepton pair
- -1.0  = mmllmax ! max invariant mass of l+l- (same flavour) lepton pair
+ -1  = mmllmax ! max invariant mass of l+l- (same flavour) lepton pair
  {} = mxx_min_pdg ! min invariant mass of a pair of particles X/X~ (e.g. {6:250})
  {'default': False} = mxx_only_part_antipart ! if True the invariant mass is applied only
                        ! to pairs of particle/antiparticle and not to pairs of the same pdg codes.

@@ -1,4 +1,4 @@
 import model DMsimp_s_spin1_UFO
 define p = g u c d s u~ c~ d~ s~
 generate p p > ZD, (ZD > FD11 FD11, (FD11 > FD21 mu+ mu-))
-output ZDfD_M91.11876 -nojpeg #name of the directory
+output ZDfD_M91.11876 -nojpeg
