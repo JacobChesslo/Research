@@ -1,0 +1,4 @@
+import model DMsimp_s_spin1_UFO
+define p = g u c d s u~ c~ d~ s~
+generate p p > ZD, (ZD > FD11 FD11, (FD11 > FD21 mu+ mu-))
+output ZDfD_ZDtofD1decay_MZD400_MfD15_MfD22_TuneCP5_madgraph-pythia8 -nojpeg

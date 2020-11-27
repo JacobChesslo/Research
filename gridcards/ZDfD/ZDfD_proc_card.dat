@@ -1,0 +1,4 @@
+import model DMsimp_s_spin1_UFO
+define p = g u c d s u~ c~ d~ s~
+generate DECAY
+output NAME -nojpeg
